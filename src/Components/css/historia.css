@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+.right-page_Hist{
+    justify-content: center;
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.right-page_Hist p,h1{
+    font-family: "kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-shadow: 1px 0 black, 0 -1px black, 1px 0 black, 0 -1px black;
+}
+
+.right-content_Hist{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 70%;
+    margin: 0,auto;
+    border: 2px solid;
+    box-shadow: 1px 2px 0px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border-color: #090807;
+    padding: 10px;
+    background-color: #ffffff87;
+    color: #db744c;
+    line-height: 1.8em;
+}
+
+.textoPrincipal_Hist{
+    text-align: center;
+}
+
+  @media screen and (max-width: 1280px){
+    .right-content{
+        font-size: 1.6rem;
+        line-height: 1.2em;
+    }
+  }
+
+  @media screen and (max-width: 1420px){
+    .menu_ul a{
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1280px){
+    .menu_ul a{
+        font-size: 15px;
+    }
+  }
+
+  
+  @media screen and (max-width: 780px){
+    .left-page{
+        display: none;
+    }
+    .right-page_Sobre{
+        width: 100vw;
+    }
+}

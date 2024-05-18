@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.left-page{
+    width: 20vw;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_ul{
+    width: 200px;
+    
+}
+
+.menu_ul li{
+    list-style: none;
+}
+
+.menu_ul a{
+    font-family: "Kanit", sans-serif;
+    font-size: 35px;
+    color: #db744c;
+    text-decoration: none;
+    text-shadow: 1px 0 black, 0 -1px black, 1px 0 black, 0 -1px black;
+}
+
+.circle-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .circle {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease-in-out;
+    background-image: url('./Imagens/bullet-svgrepo-com.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .hover-text {
+    position: absolute;
+    left: 70px; 
+    top: 15%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; 
+  }
+  
+  .item-menu:hover .hover-text {
+    opacity: 1; 
+  }
+  
+  .item-menu:hover .circle {
+    transform: scale(1.1); 
+  }
