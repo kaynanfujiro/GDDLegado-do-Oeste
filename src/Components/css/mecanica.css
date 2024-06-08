@@ -45,9 +45,25 @@
   text-align: center;
 }
 
+  .Teclas{
+    display: flex;
+    justify-content: center;
+  }
+
+  .teclasMove{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .teclasMove p{
+    font-size: 1.0rem;
+  }
+
   .teclasContent{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding: 10px;
   }
@@ -61,26 +77,26 @@
     height: auto;
   }
 
-  #LeftMouse{
+  #EnterButton{
     font-size: 20px;
     color: #db744c;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
   
-  #LeftMouse::before {
-    content: "Botão Esquerdo: "; /* Adiciona o texto "Nome: " antes do conteúdo do parágrafo */
+  #EnterButton::before {
+    content: "Tecla Enter: "; /* Adiciona o texto "Nome: " antes do conteúdo do parágrafo */
     color: #000000; /* Cor do texto "Nome: " */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
 
-  #RightMouse{
+  #QButton{
     font-size: 20px;
     color: #db744c;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
   
-  #RightMouse::before {
-    content: "Botão Direito: "; /* Adiciona o texto "Nome: " antes do conteúdo do parágrafo */
+  #QButton::before {
+    content: "Tecla Q: "; /* Adiciona o texto "Nome: " antes do conteúdo do parágrafo */
     color: #000000; /* Cor do texto "Nome: " */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
@@ -105,6 +121,18 @@
   
   #DButton::before {
     content: "Tecla D: "; /* Adiciona o texto "Nome: " antes do conteúdo do parágrafo */
+    color: #000000; /* Cor do texto "Nome: " */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  #WButton{
+    font-size: 20px;
+    color: #db744c;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+  #WButton::before {
+    content: "Tecla W: "; /* Adiciona o texto "Nome: " antes do conteúdo do parágrafo */
     color: #000000; /* Cor do texto "Nome: " */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   }

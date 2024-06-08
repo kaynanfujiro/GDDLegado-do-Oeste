@@ -54,24 +54,24 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
-.name{
+.name_dev{
   font-size: 25px;
   font-weight: 500;
   color: #db744c;
 }
 
-.name::before {
+.name_dev::before {
   content: "Nome: "; /* Adiciona o texto "Nome: " antes do conteúdo do parágrafo */
   color: #000000; /* Cor do texto "Nome: " */
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.about{
+.about_dev{
   font-size: 20px;
   color: #db744c;
 }
 
-.about::before {
+.about_dev::before {
   content: "R.A: "; /* Adiciona o texto "Nome: " antes do conteúdo do parágrafo */
   color: #000000; /* Cor do texto "Nome: " */
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);

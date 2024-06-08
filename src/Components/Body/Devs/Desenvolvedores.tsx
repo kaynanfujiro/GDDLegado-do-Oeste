@@ -11,8 +11,8 @@ export const Desenvolvedores = () =>{
                 <div className="infoDevs">
                     <img src={kaynan.cartaz} className="imagensDevs" alt="Kaynan"/>
                     <div className="sobreDevs">
-                        <p className="name">{kaynan.nome}</p>
-                        <p className="about">{kaynan.ra}</p>
+                        <p className="name_dev">{kaynan.nome}</p>
+                        <p className="about_dev">{kaynan.ra}</p>
                         <a className="rede" href={kaynan.linkedin} target="_blank">
                             <i className="bi bi-linkedin"></i>
                         </a>
@@ -21,8 +21,8 @@ export const Desenvolvedores = () =>{
                 <div className="infoDevs">
                     <img src={joao.cartaz} className="imagensDevs" alt="Kaynan"/>
                     <div className="sobreDevs">
-                        <p className="name">{joao.nome}</p>
-                        <p className="about">{joao.ra}</p>
+                        <p className="name_dev">{joao.nome}</p>
+                        <p className="about_dev">{joao.ra}</p>
                         <a className="rede" href={joao.linkedin} target="_blank">
                             <i className="bi bi-linkedin"></i>
                         </a>
@@ -31,8 +31,8 @@ export const Desenvolvedores = () =>{
                 <div className="infoDevs">
                     <img src={alex.cartaz} className="imagensDevs" alt="Kaynan"/>
                     <div className="sobreDevs">
-                        <p className="name">{alex.nome}</p>
-                        <p className="about">{alex.ra}</p>
+                        <p className="name_dev">{alex.nome}</p>
+                        <p className="about_dev">{alex.ra}</p>
                         <a className="rede" href={alex.linkedin} target="_blank">
                             <i className="bi bi-linkedin"></i>
                         </a>
@@ -41,8 +41,8 @@ export const Desenvolvedores = () =>{
                 <div className="infoDevs">
                     <img src={luiz.cartaz} className="imagensDevs" alt="Kaynan"/>
                     <div className="sobreDevs">
-                        <p className="name">{luiz.nome}</p>
-                        <p className="about">{luiz.ra}</p>
+                        <p className="name_dev">{luiz.nome}</p>
+                        <p className="about_dev">{luiz.ra}</p>
                         <a className="rede" href={luiz.linkedin} target="_blank">
                             <i className="bi bi-linkedin"></i>
                         </a>
@@ -51,8 +51,8 @@ export const Desenvolvedores = () =>{
                 <div className="infoDevs">
                     <img src={bruno.cartaz} className="imagensDevs" alt="Kaynan"/>
                     <div className="sobreDevs">
-                        <p className="name">{bruno.nome}</p>
-                        <p className="about">{bruno.ra}</p>
+                        <p className="name_dev">{bruno.nome}</p>
+                        <p className="about_dev">{bruno.ra}</p>
                         <a className="rede" href={bruno.linkedin} target="_blank">
                             <i className="bi bi-linkedin"></i>
                         </a>
