@@ -11,6 +11,7 @@ export const Sobre = () =>{
             <div className='right-page_sobre'>
               <div className="right-content_sobre">
                 <h1>Sobre</h1>
+                <br/>
                 <p className='textoPrincipal_sobre'>Legado do Oeste é um jogo de plataforma desenvolvido em Python com Pygame, focado em ação e aventura.
                     Com um menu principal interativo, uma trilha sonora envolvente, os jogadores enfrentarão desafios de fases, 
                     combatendo inimigos e explorando cenários.

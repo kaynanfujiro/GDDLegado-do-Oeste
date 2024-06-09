@@ -4,12 +4,11 @@
 
 .right-page_game{
     width: 80vw;
+    height: auto;
     display: flex;
     justify-content: center;
-    overflow: auto;
-    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
   }
 
 .Cabecalho_game{
@@ -30,9 +29,10 @@
 }
 
 .right-content_game{
+    width: 50vw;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
+    align-items: center;
     line-height: 1.8em;
 }
 
@@ -44,7 +44,7 @@
 
 .fases p{
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .Images{
@@ -58,6 +58,20 @@
     padding: 10px;
     color: #db744c;
     text-shadow: 1px 0 black, 0 -1px black, 1px 0 black, 0 -1px black;
+}
+
+.fases_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fase_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 
