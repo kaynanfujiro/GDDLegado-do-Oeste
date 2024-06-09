@@ -4,13 +4,12 @@
 
 
 .right-page_Hist{
-    justify-content: center;
     width: 80vw;
-    height: 90vh;
+    height: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
 }
 
 .right-page_Hist p,h1{
@@ -34,8 +33,6 @@
     color: #db744c;
     line-height: 1.8em;
 }
-
-
 
 .textoPrincipal_Hist{
     text-align: left;
