@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd47c5a9.css",
+    "main.js": "/static/js/main.3cd79abc.js",
+    "static/js/453.2eac4a2e.chunk.js": "/static/js/453.2eac4a2e.chunk.js",
+    "static/media/Tela-Inicio.png": "/static/media/Tela-Inicio.55108efcb1c50a965ddf.png",
+    "static/media/meu-cartaz.png": "/static/media/meu-cartaz.aff4c6689ffa95c8ac04.png",
+    "static/media/alex-cartaz.png": "/static/media/alex-cartaz.bedea2bc77796d61ecf5.png",
+    "static/media/luis-cartaz.png": "/static/media/luis-cartaz.b342bda876f61ec274da.png",
+    "static/media/bruno-cartaz.png": "/static/media/bruno-cartaz.12669818446d7a642492.png",
+    "static/media/Joao-Cartaz.png": "/static/media/Joao-Cartaz.bbb8e614b7f3d2e91736.png",
+    "static/media/bando.jpeg": "/static/media/bando.067eddb732382b5f2365.jpeg",
+    "static/media/sherif.jpeg": "/static/media/sherif.09e95f98596d51e47fc2.jpeg",
+    "static/media/ae3e2598-1018-4f37-b532-ab52aba08b00.jpg": "/static/media/ae3e2598-1018-4f37-b532-ab52aba08b00.12d5b8812791e84b6d40.jpg",
+    "static/media/cavalera.jpeg": "/static/media/cavalera.10a483748da448dd4e79.jpeg",
+    "static/media/mari.jpeg": "/static/media/mari.e6ef8058a354edce6479.jpeg",
+    "static/media/jpg": "/static/media/41b9c371a801eed2c2200fbaf2b04f27.76c0f100dfc21668fe56.jpg",
+    "static/media/vecteezy_wild-west-bar-door_10460111.jpg": "/static/media/vecteezy_wild-west-bar-door_10460111.5bb13c2741806bebda7a.jpg",
+    "static/media/Tecla Q.png": "/static/media/Tecla Q.ff9f0303799ff4f5d585.png",
+    "static/media/bullet-svgrepo-com.svg": "/static/media/bullet-svgrepo-com.b52bf7d228cc0d27e6c9.svg",
+    "index.html": "/index.html",
+    "main.cd47c5a9.css.map": "/static/css/main.cd47c5a9.css.map",
+    "main.3cd79abc.js.map": "/static/js/main.3cd79abc.js.map",
+    "453.2eac4a2e.chunk.js.map": "/static/js/453.2eac4a2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd47c5a9.css",
+    "static/js/main.3cd79abc.js"
+  ]
+}
